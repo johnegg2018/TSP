@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Inicio</title>
+    <title>TSP SHOP</title>
     <?php include './inc/link.php'; ?>
 </head>
 <body id="container-page-index">
     <?php include './inc/navbar.php'; ?>
     <div class="jumbotron" id="jumbotron-index">
-      <h1><span class="tittles-pages-logo">Cat Electronics</span> <small style="color: #fff;">El Salvador</small></h1>
+      <h1><span class="tittles-pages-logo">TSP SHOP JACIDG</span> <small style="color: #fff;">El POLI</small></h1>
       <p>
           Bienvenido a nuestra tienda en linea, aquí encontrara una gran variedad de artículos para el hogar.
       </p>
@@ -57,7 +57,7 @@
                    <article style="margin-top:20%;">
                         <p><i class="fa fa-users fa-4x"></i></p>
                         <h3>Registrate</h3>
-                        <p>Registrese y hagase cliente de <span class="tittles-pages-logo">Cat Electronics</span> para recibir las mejores ofertas y descuentos especiales de nuestros productos.</p>
+                        <p>Registrese y hagase cliente de <span class="tittles-pages-logo">TSP SHOP</span> para recibir las mejores ofertas y descuentos especiales de nuestros productos.</p>
                         <p><a href="registration.php" class="btn btn-info btn-block">Registrarse</a></p>   
                    </article>
                 </div>

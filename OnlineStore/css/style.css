@@ -25,9 +25,9 @@ nav{
     width: 100%;
     position: fixed;
     top: 0px;
-    background-color: rgba(61, 3, 3,.9);
+    background-color: rgba(255, 255, 255,.8);
     box-shadow: 2px 0px 7px #000;
-	z-index: 50;
+	z-index: 40;
 }
 .contenedor-tabla{
     display: table;
@@ -39,10 +39,10 @@ nav{
 }
 .contenedor-tr > a{
 	text-decoration: none;
-	color: #fff;
+	color: #000000;
 }
 .contenedor-tr > a:hover{
-	background-color: rgba(173, 0, 0,.7);
+	background-color: rgba(173, 255, 0,.7);
     transition: background-color .4s ease-in;
     -moz-transition: background-color .4s ease-in;
     -webkit-transition: background-color .4s ease-in;
@@ -50,12 +50,12 @@ nav{
     -o-transition: background-color .4s ease-in;
 }
 .contenedor-tr > a:last-child{
-	border-right: 1px solid rgba(149, 165, 166,0.8);
+	border-right: 1px solid rgba(255, 255, 255,0.8);
 }
 .table-cell-td {
   display: table-cell;
   padding: 20px 7px;
-  border-left: 1px solid rgba(149, 165, 166,0.8);
+  border-left: 1px solid rgba(255, 255, 255,0.8);
   text-align: center;
   width: 20%;
 }
@@ -63,14 +63,14 @@ nav{
 	outline: none;
 }
 .logo-navbar{
-    background-image: url(../assets/img/logo-navbar.png);
-    width: 59px;
-    height: 59px;
+    background-image: url(../Imagenes/tsp.png);
+    width: 170px;
+    height: 95px;
     margin-left: 2%;
     float: left;
 }
 .text-navbar{
-    color: #fff;
+    color: #000000;
     font-size: 19px;
     float: left;
     margin-left: 2%;

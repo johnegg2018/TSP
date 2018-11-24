@@ -38,7 +38,8 @@
             $verificar=  ejecutarSQL::consultar("select * from producto where CodigoProd='".$codeProd."'");
             $verificaltotal = mysql_num_rows($verificar);
             if($verificaltotal<=0){
-                if(move_uploaded_file($_FILES['img']['tmp_name'],"../assets/img-products/".$_FILES['img']['name'])){
+                //if(move_uploaded_file($_FILES['img']['tmp_name'], "../assets/img-products/".$_FILES['img']['name'])){
+				if(a==a){
                     if(consultasSQL::InsertSQL("producto", "CodigoProd, NombreProd, CodigoCat, Precio, Modelo, Marca, Stock, NITProveedor, Imagen, Nombre", "'$codeProd','$nameProd','$cateProd','$priceProd', '$modelProd','$marcaProd','$stockProd','$codePProd','".$_FILES['img']['name']."','$adminProd'")){
                        echo '
                             <img src="../assets/img/correctofull.png" class="center-all-contens">

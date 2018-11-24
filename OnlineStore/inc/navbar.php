@@ -27,7 +27,7 @@
         <div class="row hidden-xs"><!-- Menu computadoras y tablets -->
             <div class="col-xs-4">
                 <figure class="logo-navbar"></figure>
-                <p class="text-navbar tittles-pages-logo">Cat Electronics</p>
+                <p class="text-navbar tittles-pages-logo">TSP POLI</p>
             </div>
             <div class="col-xs-8">
                 <div class="contenedor-tabla pull-right">

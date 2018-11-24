@@ -239,7 +239,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-8">
+                    <div class="col-xs-12 col-sm-6">
                         <br><br>
                         <div id="del-prove">
                             <h2 class="text-danger text-center"><small><i class="fa fa-trash-o"></i></small>&nbsp;&nbsp;Eliminar un proveedor</h2>
@@ -248,7 +248,7 @@
                                     <label>Proveedores</label>
                                     <select class="form-control" name="nit-prove">
                                         <?php 
-                                            $proveNIT=  ejecutarSQL::consultar("select name from proveedor");
+                                            $proveNIT=  ejecutarSQL::consultar("select * from proveedor");
                                             while($PN=mysql_fetch_array($proveNIT)){
                                                 echo '<option value="'.$PN['NITProveedor'].'">'.$PN['NITProveedor'].' - '.$PN['NombreProveedor'].'</option>';
                                             }
