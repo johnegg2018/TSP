@@ -4,12 +4,12 @@
     <title>TSP SHOP</title>
     <?php include './inc/link.php'; ?>
 </head>
-<body id="container-page-index">
-    <?php include './inc/navbar.php'; ?>
+<body>
+    <?php include './inc/barraprincipal.php'; ?>
     <div class="jumbotron" id="jumbotron-index">
       <h1><span class="tittles-pages-logo">TSP SHOP JACIDG</span> <small style="color: #fff;">El POLI</small></h1>
       <p>
-          Bienvenido a nuestra tienda en linea, aquí encontrara una gran variedad de artículos para el hogar.
+          Bienvenido a nuestra tienda en linea, aquí encontrara una gran variedad de artículos.
       </p>
     </div>
     <section id="new-prod-index">
@@ -28,7 +28,7 @@
                          echo '
                         <div class="col-xs-12 col-sm-6 col-md-4">
                              <div class="thumbnail">
-                               
+                               <img src="assets/img-products/'.$fila['Imagen'].'">
                                <div class="caption">
                                  <h3>'.$fila['Marca'].'</h3>
                                  <p>'.$fila['NombreProd'].'</p>
@@ -62,25 +62,8 @@
                    </article>
                 </div>
                 <div class="col-xs-12 col-sm-6">
-                    <img src="assets/img/Smart-TV-RegInfo.png" alt="Smart-TV" class="img-responsive">
+                    
                 </div>
-            </div>
-        </div>
-    </section>
-    <section id="distribuidores-index">
-        <div class="container">
-            <div class="col-xs-12 col-sm-6">
-
-            </div>
-            <div class="col-xs-12 col-sm-6">
-
-            </div>
-            <div class="col-xs-12">
-                <div class="page-header">
-                  <h1>Nuestras <small style="color: #333;">Marcas</small></h1>
-                </div>
-                <br><br>
-                <img src="assets/img/logos-marcas.png" alt="logos-marcas" class="img-responsive">
             </div>
         </div>
     </section>

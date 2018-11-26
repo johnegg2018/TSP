@@ -4,7 +4,7 @@
     <title>Pedido</title>
     <?php include './inc/link.php'; ?>
 </head>
-<body id="container-page-index">
+<body>
     <?php include './inc/navbar.php'; ?>
     <section id="container-pedido">
         <div class="container">

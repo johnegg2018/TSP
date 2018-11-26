@@ -92,7 +92,7 @@ article{
 footer{
     width: 100%;
     color: #fff;
-    background-color: rgba(61, 3, 3,1);
+    background-color: rgb(21, 21, 21);
     padding: 40px 0px;
 }
 .social-icon{
@@ -128,19 +128,15 @@ footer{
     padding: 20px;
 }
 #container-carrito-compras{
-   background-color: rgb(43, 29, 29);
+   background-color: rgb(21, 21, 21);
    color:#fff;
    display: none;
 }
 /* ========================================= index styles ======================================*/
-#container-page-index{
-    background-image: url(../assets/img/font-index.JPG);	
-}
 #jumbotron-index{
-    margin: 0px;
-    padding: 140px 25px;
+    margin: 110px 0px 0px 25px;
     color: #fff;
-    background-color: rgba(0,0,0,.7);
+    background-color: rgb(21,21,21);
 }
 #new-prod-index{
     background-color: rgba(255,255,255,.9);

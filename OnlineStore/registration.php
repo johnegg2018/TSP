@@ -19,7 +19,7 @@
                         Al registrarse recibira notificaciones de nuestros productos y ofertas más recientes en nuestra tienda.
                     </p>
                     <br>
-                    <img src="assets/img/img-registration.png" alt="electrodomesticos" class="img-responsive">
+                    
                 </div>
                 <div class="col-xs-12 col-sm-6">
                    <br><br>
