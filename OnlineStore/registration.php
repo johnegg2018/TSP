@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="page-header">
-                  <h1>Registro de usuarios <small class="tittles-pages-logo">Cat Electronics</small></h1>
+                  <h1>Registro de usuarios <small class="tittles-pages-logo">TSP SHOP POLI</small></h1>
                 </div>
                 <div class="col-xs-12 col-sm-6 text-center">
                    <br><br><br>
@@ -30,7 +30,7 @@
                            <div class="form-group">
                               <div class="input-group">
                                 <div class="input-group-addon"><i class="fa fa-credit-card"></i></div>
-                                <input class="form-control all-elements-tooltip" type="text" placeholder="Ingrese su número de NIT" required name="clien-nit" data-toggle="tooltip" data-placement="top" title="Ingrese su número de NIT. Solamente números y guiones(-)" maxlength="30" pattern="[0-9-]{14,30}">
+                                <input class="form-control all-elements-tooltip" type="text" placeholder="Ingrese su número de NIT" required name="clien-nit" data-toggle="tooltip" data-placement="top" title="Ingrese su número de NIT. Solamente números y guiones(-)" maxlength="30" pattern="[0-9-]{10,20}">
                               </div>
                             </div>
                             <br>

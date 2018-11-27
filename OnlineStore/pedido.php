@@ -14,7 +14,7 @@
             <br><br><br>
             <div class="row">
                 <div class="col-xs-12 col-sm-6">
-                    <img class="img-responsive center-all-contens" src="assets/img/CatElectronics-logo.png" style="opacity: .4">
+                    <img class="img-responsive center-all-contens" src="Imagenes/tsp1.png" style="opacity: .4">
                 </div>
                 <div class="col-xs-12 col-sm-6">
                     <div id="form-compra">
@@ -25,7 +25,7 @@
                                         <h2 class="text-center">¿Confirmar pedido?</h2>
                                         <p class="text-center">Para confirmar tu pedido presiona el botón confirmar</p>
                                         <br>
-                                        <img class="img-responsive center-all-contens" src="assets/img/shopping-cart.png">
+                                        <img class="img-responsive center-all-contens" src="Imagenes/tsp.png">
                                           <input type="hidden" name="clien-name" value="'.$_SESSION['nombreUser'].'">
                                           <input type="hidden" name="clien-pass" value="'.$_SESSION['claveUser'].'">
                                           <input type="hidden"  name="clien-number" value="log">
@@ -37,7 +37,7 @@
                                         <h3 class="text-center">¿Confirmar el pedido?</h3>
                                         <p>
                                             Para confirmar tu compra debes haber iniciar sesión o introducir tu nombre de usuario
-                                            y contraseña con la cual te registraste en <span class="tittles-pages-logo">Cat Electronics</span>.
+                                            y contraseña con la cual te registraste en <span class="tittles-pages-logo">TSP SHOP POLI</span>.
                                         </p>
                                         <br>
                                       <div class="form-group">

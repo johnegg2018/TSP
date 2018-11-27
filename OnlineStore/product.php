@@ -14,7 +14,7 @@ include './library/consulSQL.php';
        <br>
         <div class="container">
             <div class="page-header">
-              <h1>Tienda <small class="tittles-pages-logo">Cat Electronics</small></h1>
+              <h1>Tienda <small class="tittles-pages-logo">TSP SHOP POLI</small></h1>
             </div>
             <br><br>
             <div class="row">
