@@ -3,6 +3,7 @@
 <head>
     <title>Pedido</title>
     <?php include './inc/link.php'; ?>
+	<?php include './inc/barraprincipal.php'; ?>
 </head>
 <body>
     <?php include './inc/navbar.php'; ?>
