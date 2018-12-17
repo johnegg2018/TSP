@@ -7,21 +7,21 @@
 <body>
     <?php include './inc/barraprincipal.php'; ?>
     <div class="jumbotron" id="jumbotron-index">
-      <h1><span class="tittles-pages-logo">TSP SHOP JACIDG</span> <small style="color: #fff;">El POLI</small></h1>
-      <p>
+      <h1><span class="tittles-pages-logo">SHOP TSP POLI</span> <small style="color:#CFCBD3;"> </small></h1>
+     <!-- <p>
           Bienvenido a nuestra tienda en linea, aquí encontrara una gran variedad de artículos.
-      </p>
+    </p> -->
     </div>
     <section id="new-prod-index">
          <div class="container">
             <div class="page-header">
-                <h1>Novedades <small>productos</small></h1>
+                <h1> <small>productos más destacados</small></h1>
             </div>
             <div class="row">
               <?php
                   include 'library/configServer.php';
                   include 'library/consulSQL.php';
-                  $consulta= ejecutarSQL::consultar("select * from producto where Stock > 0 limit 6");
+                  $consulta= ejecutarSQL::consultar("select * from producto where Stock = 0 limit 6");
                   $totalproductos = mysql_num_rows($consulta);
                   if($totalproductos>0){
                       while($fila=mysql_fetch_array($consulta)){

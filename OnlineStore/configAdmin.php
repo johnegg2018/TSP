@@ -8,6 +8,7 @@
 <head>
     <title>Admin</title>
     <?php include './inc/link.php'; ?>
+	<?php include './inc/barraprincipal.php'; ?>
     <script type="text/javascript" src="js/admin.js"></script>
 </head>
 <body id="container-page-configAdmin">
@@ -15,7 +16,7 @@
     <section id="prove-product-cat-config">
         <div class="container">
             <div class="page-header">
-              <h1>Panel de administración <small class="tittles-pages-logo">Cat Electronics</small></h1>
+              <h1>Panel de administración <small class="tittles-pages-logo">SHOP TSP POLI</small></h1>
             </div>
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist">

@@ -3,6 +3,7 @@
 <head>
     <title>Registro</title>
     <?php include './inc/link.php'; ?>
+	<?php include './inc/barraprincipal.php'; ?>
 </head>
 <body id="container-page-registration">
     <?php include './inc/navbar.php'; ?>

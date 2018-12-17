@@ -17,14 +17,14 @@
                 </p>
                 <p class="text-center">
                     <a href="pedido.php" class="btn btn-success btn-block"><i class="fa fa-dollar"></i>   Confirmar pedido</a>
-                    <a href="process/vaciarcarrito.php" class="btn btn-danger btn-block"><i class="fa fa-trash"></i>   Vaciar carrito</a> 
+                    <a href="process/vaciarcarrito.php" class="btn btn-danger btn-block"><i class="fa fa-trash"></i>  Vas a vaciar carrito</a> 
                 </p>
             </div>
         </div>
     </div>
 </section>
 <nav id="navbar-auto-hidden">
-        <div class="row hidden-xs"><!-- Menu computadoras y tablets -->
+        <div class="row hidden-xs">
             <div class="col-xs-4">
                 <figure class="logo-navbar"></figure>
                 <p class="text-navbar tittles-pages-logo">TSP POLI</p>

@@ -7,6 +7,7 @@ include './library/consulSQL.php';
 <head>
     <title>Productos</title>
     <?php include './inc/link.php'; ?>
+	<?php include './inc/barraprincipal.php'; ?>
 </head>
 <body id="container-page-product">
     <?php include './inc/navbar.php'; ?>
